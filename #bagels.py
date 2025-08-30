@@ -11,7 +11,7 @@ def playbagels():
             return guessed_number
         else:
             print("Please enter a three digit number having distinct digits")
-            time.sleep(1)
+            time.sleep(1.4)
             guessed_number=input(">")
             return guessed_number
     def get_clues(guessed_number, number):
